@@ -1,0 +1,341 @@
+body{
+    background-color:  #fff;
+    margin: 0;
+    padding: 0;  
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.parent{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: Red;
+opacity: 100%;
+color: Black;
+font-family: 'Times New Roman', Times, serif; 
+ 
+border: 3px solid white;
+border-radius: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+
+}
+ul{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: h1;  
+}
+li{
+    margin-right: 10px;   
+}
+li:first-of-type{
+    color: white;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black ;
+}
+.header_menu{
+    display: flex;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;   
+}
+.h{
+    margin-right: 20px;
+}
+.button{
+    background-color:white;
+    font-size: 20px;
+    padding: 5px;
+    width: 180px;
+    border: none;
+    color: black;
+    border-radius: 30px;
+
+}
+.home_menu{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+.home_left{
+   padding-right: 100px;
+   text-align: center;
+}
+.home_left>.p1{
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.home_left>.p2{
+    font-size: 60px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+}
+.home_left>.h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-left: 15px
+}
+.home_left{
+    text-align: center;
+    align-items: center;
+}
+.image{
+    width: 450px;
+    padding-left: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 3px solid red;
+    border-radius: 40px;
+ 
+}
+.btn1{
+    width: 200px;
+    padding: 10px 20px;
+    background-color: red;
+    font-size: 20px;
+    border: none;
+    color: black;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.btn2{
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+}
+.services{
+     display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        background-color: red;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 20px;
+        color: black;
+        align-items: center;
+        border: 5px solid red;
+    }
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.skills>.Hr{
+    margin-left: 20px;
+} 
+.contact{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: rgb(0, 0, 0, 0.5);
+}
+.form>h1{
+    font-size: 40px;
+    padding-left: 20px;
+
+}
+input>textarea{
+    width: 500px;
+    padding: 7px;
+    
+}
+.form_button{
+    background-color: red;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.Aboutus{
+    margin-top: 10px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}   
+.background{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 600px;
+    padding: 10px;
+}
+.background>h1{
+    font-size: 30px;
+}
+.background>h2{
+    font-size: 40px;
+}
+.background>p{
+    text-align: justify;
+}
+.Offer{
+    background-color: red;
+    padding-left: 300px;
+    color: white;
+    border-radius: 20px;
+} 
+.Offer>h2, h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}  
+.Offer>h2{
+    font-size: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: red;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    border: 5px solid none;
+    margin-bottom: 20px;
+}
+.imge>img{
+    width: 200px;
+    border: 3px solid none;
+    border-radius: 10px;
+}
+.contact_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+ }
+ .imag{
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 20px;
+    height: 100%;
+ }
+ .form_holder{
+    width: 480px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 5px 30px rgb(0, 0, 0, 0.4);
+
+ }
+ form{
+    width: 90%;
+ }
+ .form_grp{
+    height: 65px;
+ }
+ label{
+    position: relative;
+    bottom: 3px;
+    color: red;
+    font-size: large;
+ }
+ input{
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+ }
+ input:valid{
+    border: 2px solid green;
+ }
+ input:invalid{
+    border: 2px solid red;
+ }
+ .message{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+ }
+.form_button{
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+ }
+.form, h1{
+    background-color: red;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+.message_container{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+ }
+ .message_container>h3{
+    color: red;
+ }
